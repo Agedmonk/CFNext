@@ -38,7 +38,7 @@ function deployKind(){
 
 // 更新检测：点击版本号后拉取仓库代码比对版本号；有新版本时返回最新代码供面板复制
 // 明文版与混淆版同步发布同一版本号：版本基准统一用「CFNext 明文版.js」，按自身形态复制对应代码
-const UPDATE_REPO = 'PAICNI/CFNext';
+const UPDATE_REPO = 'Agedmonk/cfnext';
 let UPDATE_CACHE = null; // { t, r } 60 秒缓存
 
 function parseVer(v){
@@ -513,9 +513,9 @@ function isTrustedRegionPool(url) {
 }
 
 const DEFAULT_CONFIG = {
-  uuid: '',
-  path: '',            // 自定义路径，留空用 UUID
-  admin: '',
+  uuid: '226279dd-28b2-4b61-96be-a2a0b1afd522',
+  path: 'NicholasLai',            // 自定义路径，留空用 UUID
+  admin: 'NicholasLai',
   host: '',
   // 协议开关
   enableVless: true,
